@@ -1,0 +1,16 @@
+,Feature,Explanation,Measurement,Range
+0,Age,Age of the patient,Years,"[40,..., 95]"
+1,Anaemia,Decrease of red blood cells or hemoglobin,Boolean,"0, 1"
+2,High blood pressure,If a patient has hypertension,Boolean,"0, 1"
+3,Creatinine phosphokinase,Level of the CPK enzyme in the blood,mcg/L,"[23,..., 7861]"
+4,(CPK),,,
+5,Diabetes,If the patient has diabetes,Boolean,"0, 1"
+6,Ejection fraction,Percentage of blood leaving,Percentage,"[14,..., 80]"
+7,,the heart at each contraction,,
+8,Sex,Woman or man,Binary,"0, 1"
+9,Platelets,Platelets in the blood,kiloplatelets/mL,"[25.01,..., 850.00]"
+10,Serum creatinine,Level of creatinine in the blood,mg/dL,"[0.50,..., 9.40]"
+11,Serum sodium,Level of sodium in the blood,mEq/L,"[114,..., 148]"
+12,Smoking,If the patient smokes,Boolean,"0, 1"
+13,Time,Follow-up period,Days,"[4,...,285]"
+14,(target) death event,If the patient died during the follow-up period,Boolean,"0, 1"
